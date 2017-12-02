@@ -3,10 +3,11 @@ The code to generate a top 20 score in the [amazon classification challenge](htt
 
 Note I had to re-run this and results are a few decimal points different (from 0.9158 to 0.9157). I have also used an old version  (1.0.3) to be consistent with the video. Newer versions are far superior. 
 
-2 additional corrections. 
+3 additional corrections. 
 
 1) the counts' features inlcude BOTH train and test summed (not just test)
 2) Interractions for sparse logistic regression go up to 5-way, but most are 3-way. In any case it does not take more than 20 minutes to find these with a forward cv-aproach (in *prepare_data.py*)
+3) To get the best features out of DAI you should put some **text** (like a prefix) in front of the columns to help DAI unerstand they are catgeorical (and not numerical) . 
 
 To run use:
 
