@@ -6,7 +6,7 @@ Note I had to re-run this and results are a few decimal points different (from 0
 2 additional corrections. 
 
 1) the counts' features inlcude BOTH train and test summed (not just test)
-2) Interractions for sparse logistic regression go au to 5-way, but most are 3-way. In any case it does not take more than 20 minutes to find these with a forward cv-aproach (in *prepare_data.py*)
+2) Interractions for sparse logistic regression go up to 5-way, but most are 3-way. In any case it does not take more than 20 minutes to find these with a forward cv-aproach (in *prepare_data.py*)
 
 To run use:
 
