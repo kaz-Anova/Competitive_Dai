@@ -7,7 +7,7 @@ Note I had to re-run this and results are a few decimal points different (from 0
 
 1) the counts' features inlcude BOTH train and test summed (not just test)
 2) Interractions for sparse logistic regression go up to 5-way, but most are 3-way. In any case it does not take more than 20 minutes to find these with a forward cv-aproach (in *prepare_data.py*)
-3) To get the best features out of DAI you should put some **text** (like a prefix) in front of the columns to help DAI unerstand they are catgeorical (and not numerical) . 
+3) In case you want to produce better features with the newer version of DAI, you should put some **text** (like a prefix) in front of the features integer codes to help DAI unerstand they are catgeorical (and not numerical) . 
 
 To run use:
 
