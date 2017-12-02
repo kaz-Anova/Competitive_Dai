@@ -47,7 +47,7 @@ model_ama_meta_blender.py # runs blends everything
 
 For more ideas around this competition and stacking, you may have a look at [this](https://github.com/kaz-Anova/ensemble_amazon)
 
-You amy also look at [StackNet too](https://github.com/kaz-Anova/StackNet/blob/master/example/example_amazon/EXAMPLE.MD)
+You may also look at [StackNet too](https://github.com/kaz-Anova/StackNet/blob/master/example/example_amazon/EXAMPLE.MD)
 
 
 
